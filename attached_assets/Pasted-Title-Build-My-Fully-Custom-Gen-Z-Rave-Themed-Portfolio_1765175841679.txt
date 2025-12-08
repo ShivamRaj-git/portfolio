@@ -1,0 +1,153 @@
+Title: Build My Fully Custom Gen-Z Rave Themed Portfolio (Next.js + TS + Three.js + Barba.js)
+
+Project Requirements
+
+Build a fully responsive, modern, animated personal portfolio website with the following technologies:
+
+Next.js (latest)
+
+TypeScript
+
+Three.js for 3D scenes, dynamic visuals, and interactive elements
+
+Barba.js for page transitions and smooth navigation
+
+TailwindCSS (preferred) for styling, unless you recommend a better alternative for this theme
+
+Framer Motion for micro-interactions and UI animations
+
+Custom design system: Gen-Z dark rave aesthetic (neon accents, grainy textures, glitch effects, cyber-punk-ish vibes)
+
+Pages / Sections to Build
+
+Create the following pages with their own unique transitions and animations:
+
+Landing / Hero Page
+
+Three.js animated background
+
+Neon rave particles / glitch waves
+
+Animated name + title
+
+CTA to enter the site
+
+About Page
+
+My skills in a visually intense, holographic, cyber-rave style
+
+Animated timeline: education + experience
+
+Skills Section
+
+Icon grid with hover 3D effects
+
+Auto-looping neon “skill ring” or “skill sphere” in Three.js
+
+Projects Page
+
+Grid or carousel
+
+Hover 3D tilt
+
+Project detail page with animated transitions using Barba.js
+
+Light Three.js showcase per project (optional)
+
+Contact Page
+
+Clean UI
+
+Animated form
+
+Social links with neon hover pulsation
+
+Global Navigation
+
+Barba.js controlled page navigation
+
+Smooth transitions with liquid distortion / glitch effects
+
+Design Requirements
+
+Theme: Gen-Z Dark Rave
+
+Colors: black, deep grays, neon pinks, neon greens, ultraviolet, electric blue
+
+Visual effects:
+
+Glitch text
+
+Chromatic aberration
+
+Noise / grain overlay
+
+Neon glow
+
+Hover distortions
+
+Fonts: bold, futuristic, condensed
+
+Mood: intense, playful, rebellious, energetic
+
+Animation Requirements
+
+Page transitions using Barba.js
+
+Component-level animations using Framer Motion
+
+Three.js:
+
+Particles
+
+Shader waves
+
+Animated neon wireframes
+
+Interactive mouse-reactive effects
+
+Each page must have its own entrance + exit animations
+
+Functional Requirements
+
+Mobile-responsive
+
+Clean folder structure
+
+Reusable component architecture
+
+Dark mode only (no light mode)
+
+SEO optimized
+
+Performance optimized Three.js scenes
+
+Code comments explaining the logic where needed
+
+Deliverables
+
+Full Next.js TypeScript project
+
+All components + sections implemented
+
+All animations + transitions implemented
+
+All Three.js scenes integrated
+
+Fully styled with the rave theme
+
+Instructions for running + deploying the project
+
+Tone for Code Generation
+
+Avoid generic templates
+
+Produce high-quality, hand-crafted code
+
+Use best practices in TypeScript
+
+Explain advanced animations / Three.js scenes clearly
+
+Final Instruction
+
+Start directly by scaffolding the Next.js + TypeScript project and proceed to build each section one by one. No placeholders, no filler content. Everything must follow the dark rave aesthetic.

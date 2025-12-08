@@ -1,21 +1,57 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { AlertCircle } from "lucide-react";
+import { motion } from "framer-motion";
+import { Link } from "wouter";
+import { NeonButton } from "@/components/effects/NeonButton";
+import { GlitchText } from "@/components/effects/GlitchText";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-gray-50">
-      <Card className="w-full max-w-md mx-4">
-        <CardContent className="pt-6">
-          <div className="flex mb-4 gap-2">
-            <AlertCircle className="h-8 w-8 text-red-500" />
-            <h1 className="text-2xl font-bold text-gray-900">404 Page Not Found</h1>
-          </div>
+    <div className="min-h-screen flex items-center justify-center px-4">
+      <div className="text-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+        >
+          <h1 className="font-display text-8xl md:text-9xl tracking-wider mb-4">
+            <GlitchText text="404" className="neon-text-pink" />
+          </h1>
+        </motion.div>
 
-          <p className="mt-4 text-sm text-gray-600">
-            Did you forget to add the page to the router?
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          <h2 className="font-display text-3xl md:text-4xl tracking-wider text-white mb-4">
+            SIGNAL LOST
+          </h2>
+          <p className="text-white/60 text-lg mb-8 max-w-md mx-auto">
+            The page you're looking for has vanished into the void.
+            Let's get you back on track.
           </p>
-        </CardContent>
-      </Card>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+        >
+          <Link href="/">
+            <NeonButton variant="cyan" size="lg" data-testid="button-go-home">
+              Return to Base
+            </NeonButton>
+          </Link>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.8 }}
+          className="mt-16 text-white/30 font-mono text-sm"
+        >
+          ERROR_CODE: PAGE_NOT_FOUND
+        </motion.div>
+      </div>
     </div>
   );
 }

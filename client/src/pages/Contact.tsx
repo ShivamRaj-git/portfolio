@@ -21,7 +21,7 @@ const contactSchema = z.object({
 type ContactFormData = z.infer<typeof contactSchema>;
 
 const socialLinks = [
-  { name: "GitHub", icon: Github, url: "https://github.com", color: "#fff" },
+  { name: "GitHub", icon: Github, url: "https://github.com/ShivamRaj-git/portfolio", color: "#fff" },
   { name: "Twitter", icon: Twitter, url: "https://twitter.com", color: "#00D9FF" },
   { name: "LinkedIn", icon: Linkedin, url: "https://linkedin.com", color: "#FF10F0" },
   { name: "Email", icon: Mail, url: "mailto:shivamraj@example.com", color: "#39FF14" },

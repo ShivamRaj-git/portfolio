@@ -51,7 +51,7 @@ const defaultProjects: Project[] = [
     image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop",
     technologies: ["Next.js", "TypeScript", "three.js"],
     liveUrl: "",
-    githubUrl: "",
+    githubUrl: "https://github.com/ShivamRaj-git/portfolio",
     category: "Creative",
   },
 ];

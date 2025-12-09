@@ -70,7 +70,7 @@ export default function Projects() {
           <p className="text-white/50 font-mono text-sm">
             More projects available on{" "}
             <a 
-              href="https://github.com" 
+              href="https://github.com/ShivamRaj-git/portfolio" 
               target="_blank" 
               rel="noopener noreferrer"
               className="neon-text-cyan hover:underline"

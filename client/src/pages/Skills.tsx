@@ -36,8 +36,8 @@ export default function Skills() {
             SKILLS
           </h1>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            A collection of technologies and tools I've mastered over the years.
-            Always learning, always growing.
+            Technologies and tools I work with. From languages to frameworks, 
+            always learning and building.
           </p>
         </motion.div>
 
@@ -106,16 +106,16 @@ export default function Skills() {
           className="grid md:grid-cols-3 gap-6"
         >
           <div className="glass-card rounded-md p-6 text-center">
-            <div className="font-display text-5xl neon-text-pink mb-2">5+</div>
-            <div className="text-white/70 font-mono text-sm uppercase tracking-wider">Years Experience</div>
+            <div className="font-display text-5xl neon-text-pink mb-2">4+</div>
+            <div className="text-white/70 font-mono text-sm uppercase tracking-wider">Projects Built</div>
           </div>
           <div className="glass-card rounded-md p-6 text-center">
-            <div className="font-display text-5xl neon-text-cyan mb-2">50+</div>
-            <div className="text-white/70 font-mono text-sm uppercase tracking-wider">Projects Completed</div>
+            <div className="font-display text-5xl neon-text-cyan mb-2">2</div>
+            <div className="text-white/70 font-mono text-sm uppercase tracking-wider">Internships</div>
           </div>
           <div className="glass-card rounded-md p-6 text-center">
-            <div className="font-display text-5xl neon-text-green mb-2">15+</div>
-            <div className="text-white/70 font-mono text-sm uppercase tracking-wider">Technologies Mastered</div>
+            <div className="font-display text-5xl neon-text-green mb-2">25+</div>
+            <div className="text-white/70 font-mono text-sm uppercase tracking-wider">Skills & Tools</div>
           </div>
         </motion.div>
       </div>

@@ -27,9 +27,8 @@ export default function About() {
           >
             ABOUT ME
           </h1>
-          <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            I'm a creative developer passionate about pushing the boundaries of web experiences.
-            I blend code with creativity to build immersive digital worlds.
+          <p className="text-white/70 text-lg max-w-2xl mx-auto mb-8">
+            I'm Shivam Kumar, a software developer in the making, passionate about building clean, usable and efficient applications. I enjoy understanding how systems work from end-to-end – from the database and APIs to the animations and user experience.
           </p>
         </motion.div>
 
@@ -41,43 +40,43 @@ export default function About() {
         >
           <div className="glass-card rounded-md p-8">
             <h2 className="font-display text-3xl tracking-wider neon-text-cyan mb-6">
-              PHILOSOPHY
+              MY JOURNEY
             </h2>
             <p className="text-white/80 leading-relaxed mb-4">
-              I believe that the web should be an experience, not just a destination. 
-              Every pixel, every animation, every interaction should tell a story and 
-              evoke emotion.
+              My journey started with C, C++ and Java basics in college, and then moved into web development, Python and data handling. I've worked on projects like a Medicine Distribution Management System (DAWAI NOW), a To-Do List app, and an EMI Calculator, which helped me understand real-world problem solving, database design and UI/UX.
             </p>
             <p className="text-white/80 leading-relaxed">
-              My approach combines technical excellence with artistic vision, creating 
-              digital experiences that are both functional and unforgettable.
+              Right now I'm focusing on improving my DSA, building full-stack projects, and exploring modern tools like Next.js, TypeScript and three.js to create immersive experiences on the web.
             </p>
           </div>
 
           <div className="glass-card rounded-md p-8">
             <h2 className="font-display text-3xl tracking-wider neon-text-green mb-6">
-              APPROACH
+              BEYOND CODE
             </h2>
-            <div className="space-y-4">
+            <p className="text-white/80 leading-relaxed mb-4">
+              When I'm not coding, you'll probably find me exploring new tech, listening to music, or planning my next side project.
+            </p>
+            <div className="space-y-4 mt-6">
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-neon-pink mt-2 flex-shrink-0" />
                 <div>
-                  <h3 className="text-white font-semibold mb-1">Performance First</h3>
-                  <p className="text-white/60 text-sm">Optimized code that runs smoothly on all devices</p>
+                  <h3 className="text-white font-semibold mb-1">Problem Solving</h3>
+                  <p className="text-white/60 text-sm">Understanding systems from database to UI</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-neon-cyan mt-2 flex-shrink-0" />
                 <div>
-                  <h3 className="text-white font-semibold mb-1">User-Centered</h3>
-                  <p className="text-white/60 text-sm">Intuitive interfaces that delight and engage</p>
+                  <h3 className="text-white font-semibold mb-1">Continuous Learning</h3>
+                  <p className="text-white/60 text-sm">Always exploring new technologies and tools</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-neon-green mt-2 flex-shrink-0" />
                 <div>
-                  <h3 className="text-white font-semibold mb-1">Future-Ready</h3>
-                  <p className="text-white/60 text-sm">Cutting-edge tech that stays ahead of the curve</p>
+                  <h3 className="text-white font-semibold mb-1">Full-Stack Focus</h3>
+                  <p className="text-white/60 text-sm">Building complete applications end-to-end</p>
                 </div>
               </div>
             </div>

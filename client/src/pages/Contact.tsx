@@ -24,7 +24,7 @@ const socialLinks = [
   { name: "GitHub", icon: Github, url: "https://github.com", color: "#fff" },
   { name: "Twitter", icon: Twitter, url: "https://twitter.com", color: "#00D9FF" },
   { name: "LinkedIn", icon: Linkedin, url: "https://linkedin.com", color: "#FF10F0" },
-  { name: "Email", icon: Mail, url: "mailto:hello@rave.dev", color: "#39FF14" },
+  { name: "Email", icon: Mail, url: "mailto:shivamraj@example.com", color: "#39FF14" },
 ];
 
 export default function Contact() {
@@ -194,7 +194,7 @@ export default function Contact() {
                 opportunities to be part of your visions.
               </p>
               
-              <div className="space-y-4">
+              <div className="space-y-4 mb-6">
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-neon-green" />
                   <span className="text-white/80">Available for freelance</span>
@@ -207,6 +207,12 @@ export default function Contact() {
                   <div className="w-2 h-2 rounded-full bg-neon-pink" />
                   <span className="text-white/80">Interested in collaborations</span>
                 </div>
+              </div>
+
+              <div className="pt-4 border-t border-white/10">
+                <p className="text-white/60 text-sm font-mono">
+                  📍 Patna, India
+                </p>
               </div>
             </div>
 

@@ -31,10 +31,28 @@ export default function Landing() {
           className="font-display text-6xl sm:text-7xl md:text-8xl lg:text-9xl tracking-wider mb-6"
           data-testid="text-hero-title"
         >
-          <GlitchText text="RAVE" className="neon-text-pink" />
+          <GlitchText text="Shivam" className="neon-text-pink" />
           <span className="text-white">.</span>
-          <span className="neon-text-cyan">DEV</span>
+          <span className="neon-text-cyan">Raj</span>
         </motion.h1>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.55 }}
+          className="mx-auto mb-8 w-40 h-40 sm:w-52 sm:h-52 rounded-full overflow-hidden border-4 border-neon-cyan/60 shadow-[0_0_25px_rgba(0,255,255,0.35)] bg-black/50"
+        >
+          <img
+            src="/profile.jpg"
+            alt="Shivam Raj portrait"
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src =
+                "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop&q=80";
+            }}
+          />
+        </motion.div>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -43,10 +61,10 @@ export default function Landing() {
           className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto mb-8 font-sans"
           data-testid="text-hero-subtitle"
         >
-          Building the future of the web with{" "}
-          <span className="neon-text-green">immersive 3D experiences</span>,{" "}
-          <span className="neon-text-pink">cutting-edge animations</span>, and{" "}
-          <span className="neon-text-cyan">modern technologies</span>.
+          I’m Shivam Raj, a creative developer crafting immersive web
+          experiences with 3D, motion, and bold visuals. I blend sharp frontend
+          engineering with design-first thinking to ship fast, feel smooth, and
+          stand out.
         </motion.p>
 
         <motion.div
